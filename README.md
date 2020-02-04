@@ -7,7 +7,7 @@
 
     echo mynewpassword | sudo anydesk --set-password
     
-Cannot access security panel from anydesk https://askubuntu.com/a/1147612/561540    
+- Cannot access security panel from anydesk https://askubuntu.com/a/1147612/561540    
 
 ###### 安裝 Room
 ###### 安裝 Nodejs
