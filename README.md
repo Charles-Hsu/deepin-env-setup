@@ -4,25 +4,25 @@
 
 http://ftp.tku.edu.tw/Linux/Deepin/deepin-cd/15.11/
 
-###### 把 ISO 檔 dd 到 SD 卡上面
+#### 把 ISO 檔 dd 到 SD 卡上面
 
     dd if=deepin-15.11-amd64.iso of=/dev/rdisk1 bs=10m
 
-###### 裝到 Supermicro 的 SSD 
-###### 安裝 AnyDesk
+#### 裝到 Supermicro 的 SSD 
+#### 安裝 AnyDesk
 
     echo mynewpassword | sudo anydesk --set-password
     
 - Cannot access security panel from anydesk https://askubuntu.com/a/1147612/561540    
 
-###### 安裝 Room
-###### 安裝 ssh
+#### 安裝 Room
+#### 安裝 ssh
 
 - Enable SSH Server on Debian https://linuxhint.com/enable-ssh-server-debian/
 
       sudo apt-get install openssh-server
 
-###### 安裝 Nodejs
+#### 安裝 Nodejs
 
     cd /usr/local/lib
     sudo mkdir nodejs
@@ -39,7 +39,7 @@ http://ftp.tku.edu.tw/Linux/Deepin/deepin-cd/15.11/
 
       sudo ln -s /usr/local/lib/nodejs/node-v12.14.1-linux-x64/bin/node /usr/bin/node
       
-###### 安裝 cnpm
+#### 安裝 cnpm
 
     $ sudo npm install -g cnpm --registry=https://registry.npm.taobao.org
     $ whereis cnpm
@@ -54,19 +54,19 @@ http://ftp.tku.edu.tw/Linux/Deepin/deepin-cd/15.11/
     linux x64 4.15.0-30deepin-generic
     registry=https://r.npm.taobao.org
     
-###### 安裝 Vue
+#### 安裝 Vue
 
     cnmp install vue
     sudo cnpm install --global vue-cli
     
-###### 建立第一個 Vue 的 project
+#### 建立第一個 Vue 的 project
 
     $ vue init webpack my-project
     $ cd my-project
     $ npm run dev
     Your application is running here: http://localhost:8080
     
-###### 設定 host 
+#### 設定 host 
     
 - 修改 config/index.js
 
