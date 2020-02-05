@@ -1,6 +1,6 @@
 # deepin-env-setup
 
-###### 先下載 deepin 的 ISO 檔
+#### 先下載 deepin 的 ISO 檔
 
 http://ftp.tku.edu.tw/Linux/Deepin/deepin-cd/15.11/
 
