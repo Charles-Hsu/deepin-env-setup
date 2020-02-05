@@ -82,5 +82,7 @@ http://ftp.tku.edu.tw/Linux/Deepin/deepin-cd/15.11/
       $ sudo netstat -tulpn
       
  ![](https://github.com/Charles-Hsu/deepin-env-setup/blob/master/netstat-tulpn.png)
+ 
+ ![](https://github.com/Charles-Hsu/deepin-env-setup/blob/master/vue.png)
     
    
