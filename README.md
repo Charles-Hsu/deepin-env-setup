@@ -75,7 +75,7 @@ http://ftp.tku.edu.tw/Linux/Deepin/deepin-cd/15.11/
       
 - 設定環境變數
 
-      $ export host=0.0.0.0
+      $ export HOST=0.0.0.0
       $ npm run dev
       Your application is running here: http://0.0.0.0:8080
       
