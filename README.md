@@ -37,35 +37,24 @@ http://ftp.tku.edu.tw/Linux/Deepin/deepin-cd/15.11/
     $ npm -v
     6.13.4
       
-###### How to Install Latest Node.js and NPM on Ubuntu with PPA<br>
-###### https://tecadmin.net/install-latest-nodejs-npm-on-ubuntu/
+###### How to Install Latest Node.js and NPM on Ubuntu with PPA
+https://tecadmin.net/install-latest-nodejs-npm-on-ubuntu/
 
 #### 安裝 Vue
 
-    cnmp install vue
-    sudo cnpm install --global vue-cli
+    $ sudo npm install -g @vue/cli @vue/cli-service-global
     
 #### 建立第一個 Vue 的 project
 
-    $ vue init webpack my-project
-    $ cd my-project
+    $ mkdir vue 
+    $ cd vue
+    $ vue create hello-world
+    $ cd hello-world
     $ npm run dev
-    Your application is running here: http://localhost:8080
     
-#### 設定 host 
-    
-- 修改 config/index.js
-
-      //host: 'localhost', // can be overwritten by process.env.HOST
-      host: '0.0.0.0', // can be overwritten by process.env.HOST
-      
-- 設定環境變數
-
-      $ export HOST=0.0.0.0
-      $ npm run dev
-      Your application is running here: http://0.0.0.0:8080
-      
-      $ sudo netstat -tulpn
+      App running at:
+      - Local:   http://localhost:8080/
+      - Network: http://192.168.1.123:8080/
       
  ![](https://github.com/Charles-Hsu/deepin-env-setup/blob/master/netstat-tulpn.png)
  
