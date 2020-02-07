@@ -59,5 +59,34 @@ https://tecadmin.net/install-latest-nodejs-npm-on-ubuntu/
  ![](https://github.com/Charles-Hsu/deepin-env-setup/blob/master/netstat-tulpn.png)
  
  ![](https://github.com/Charles-Hsu/deepin-env-setup/blob/master/vue.png)
+ 
+ ##### 設定 https 為 facebook 做準備
+ 
+    $ vi vue.config.js
+    const fs = require('fs')
+    module.exports = {
+	  devServer: {
+		      open: process.platform === 'darwin',
+		      host: '0.0.0.0',
+		      port: 8086, // CHANGE YOUR PORT HERE!
+		      https: {
+				key  : fs.readFileSync('certs/cert.pem'),
+				cert : fs.readFileSync('certs/key.pem')
+			  },
+		      hotOnly: false,
+		    },
+       }
+       
+ 好像沒有用, https 可以, 但 chrome 有 warning. 參考這一篇 [請求可被 Chrome 瀏覽器信任的 Web 憑證](https://dotblogs.com.tw/yc421206/2019/05/24/mmc_request_web_certificate_from_ca_server_can_trusted_by_chrome_browser)
+ 
+ ##### 安裝 golang
+ 
+     $ wget https://dl.google.com/go/go1.13.7.linux-amd64.tar.gz
+     $ sudo tar -C /usr/local -xzf go1.13.7.linux-amd64.tar.gz
+     
+##### 安裝 git
+
+    $ sudo apt install git
     
+
    
