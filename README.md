@@ -78,6 +78,7 @@ https://tecadmin.net/install-latest-nodejs-npm-on-ubuntu/
        }
        
  好像沒有用, https 可以, 但 chrome 有 warning. 參考這一篇 [請求可被 Chrome 瀏覽器信任的 Web 憑證](https://dotblogs.com.tw/yc421206/2019/05/24/mmc_request_web_certificate_from_ca_server_can_trusted_by_chrome_browser)
+![](https://github.com/Charles-Hsu/deepin-env-setup/blob/master/vue-https-warning.png)
  
  ##### 安裝 golang
  
