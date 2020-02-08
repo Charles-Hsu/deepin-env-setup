@@ -16,6 +16,9 @@ http://ftp.tku.edu.tw/Linux/Deepin/deepin-cd/15.11/
 - Cannot access security panel from anydesk https://askubuntu.com/a/1147612/561540    
 
 #### 安裝 Room
+
+https://zoom.us/download?os=linux
+
 #### 安裝 ssh
 
 - Enable SSH Server on Debian https://linuxhint.com/enable-ssh-server-debian/
